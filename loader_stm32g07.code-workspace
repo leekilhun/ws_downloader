@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "loader_stm32g07"
+		}
+	],
+	"settings": {	
+		"cmake.generator": "Unix Makefiles",
+		"terminal.integrated.fontFamily": "D2Coding",
+		"terminal.integrated.env.windows": {
+			"PATH": "${env:PATH};C:/tools/mingw32/bin/mingw32-make.exe",	
+		},
+		"cmake.configureOnOpen": false,
+		"files.associations": {
+			"ap.h": "c",
+			"ap_def.h": "c",
+			"hw.h": "c",
+			"hw_def.h": "c",
+			"def.h": "c"
+		}
+	}
+}
